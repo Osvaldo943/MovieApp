@@ -16,7 +16,7 @@ function AddMovie(){
       <form onSubmit={HandleMovie}>
         <input type="text" name="name" placeholder="Name" onChange={(e)=>setName(e.target.value)}/>
         <input type="number" name="price" placeholder="Price" onChange={(e)=>setPrice(e.target.value)}/>
-        <button type="submit" >Cadastrar-se</button>
+        <button type="submit" >Adicionar</button>
       </form> 
     </>
   )
