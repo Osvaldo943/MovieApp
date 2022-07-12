@@ -1,5 +1,5 @@
 import {useState, createContext} from "react"
-
+ 
 export const MovieContext = createContext<any>([]);
 
 export const  MovieProvider = props => {
