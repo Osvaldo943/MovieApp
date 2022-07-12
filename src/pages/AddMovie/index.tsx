@@ -11,7 +11,6 @@ function AddMovie(){
     console.log(name, price)
     setMovies(prevMovies => [...prevMovies, {name: name, price: price}]);
   }
-
   return(
     <>
       <form onSubmit={HandleMovie}>
