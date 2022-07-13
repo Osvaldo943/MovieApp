@@ -33,5 +33,6 @@ export const Movie: AnyStyledConponent = styled.div`
   &:hover {
     border-color: #F75A68;
     background: #F75A68;
+    color: #ffffff;
   }
 `
