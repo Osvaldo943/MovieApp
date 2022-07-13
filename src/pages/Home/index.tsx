@@ -3,7 +3,7 @@ import Banner from "../../components/Banner";
 import Header from "../../components/Header";
 import MovieList from "../../components/MovieList";
 import Search from "../../components/Search";
-import Footer from "../../components/Footer"
+import Footer from "../../components/Footer";
 
 function Home(){
   const [query, setQuery] = ('');
