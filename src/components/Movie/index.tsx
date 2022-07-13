@@ -1,16 +1,20 @@
 import {useState} from "react"
+import * as S from "./style"
 
 interface MovieProps{
     name: string;
     price: string;
+    image: string;
 }
 
 function Movie(props: MovieProps){
     return(
-        <div>
-            <p>{props.name} </p>
-            <p>{props.price} </p>
-        </div>
+        <S.Movie>
+            <img src={props.image} alt={props.image} />
+            <div>
+                <p>{props.name} </p>
+            </div>
+        </S.Movie>
     )
 }
 
