@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Banner = styled.div`
   width: 100%;
-  height: 35vh;
+  height: 45vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
