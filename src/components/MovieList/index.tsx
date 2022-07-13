@@ -41,14 +41,21 @@ function MovieList(){
             <button type="submit">Search</button>
           </form>
         </S.Search>
-        <S.MovieList>
-          <h2>More watched</h2>
-          <S.Movies>
-            {movies?.map(movie =>(
-                <Movie  key={movie?.id} name={movie?.original_title} image={movie?.poster_path} />
-            ))}
-          </S.Movies>
-        </S.MovieList>
+
+        {movies.length > 0 ? (
+          <S.MovieList>
+            <h2>More watched</h2>
+            <S.Movies>
+              {movies?.map(movie =>(
+                  <Movie  key={movie?.id} name={movie?.original_title} image={movie?.poster_path} />
+              ))}
+            </S.Movies>
+          </S.MovieList>
+        ):(
+          <S.MovieNoFound>Sorry.! Couldn´t find movies.!</S.MovieNoFound>
+        ) 
+        }
+        
       </>
     )
 }

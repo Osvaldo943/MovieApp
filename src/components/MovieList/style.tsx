@@ -71,3 +71,10 @@ form{
   }
 }
 `
+export const MovieNoFound: AnyStyledComponent = styled.div`
+  width: 100%;
+  margin: 10rem auto;
+  font-size: 30px;
+  color: #C4C4CC;
+  text-align: center;
+`

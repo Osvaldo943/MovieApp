@@ -5,9 +5,9 @@ function Header(){
   return(
     <S.Header>
       <S.Logo>
-        <Link to="/">
+        <a href="/">
           <span>All</span>Movie
-        </Link>
+        </a>
       </S.Logo>
       <nav>
         <ul>
