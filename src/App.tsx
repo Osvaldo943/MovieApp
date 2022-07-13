@@ -1,13 +1,16 @@
 import { BrowserRouter } from 'react-router-dom'
 import './styles/global.css'
 import Router from './Router'
+import { MovieProvider } from './MovieProvider'
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Router />
-      </BrowserRouter>
+      <MovieProvider >
+        <BrowserRouter>
+          <Router />
+        </BrowserRouter>
+      </MovieProvider>
     </div>
   )
 }

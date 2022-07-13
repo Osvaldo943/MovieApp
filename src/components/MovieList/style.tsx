@@ -1,0 +1,27 @@
+import styled,{AnyStyledComponent} from "styled-components"
+
+export const MovieList: AnyStyledComponent = styled.div`
+  width: 100%;
+  margin: 30px auto;
+  padding: 30px 140px;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h2{
+    font-size: 25px;
+    font-size: bold;
+    color: #C4C4CC;
+    margin-bottom: 30px;
+  }
+`
+export const Movies: AnyStyledComponent = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+
+`
