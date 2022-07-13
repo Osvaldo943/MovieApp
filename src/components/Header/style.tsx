@@ -6,6 +6,7 @@ export const Header:AnyStyledComponents = styled.header`
   padding: 15px 30px;
   background: #121214;
   border-bottom: 1px solid #121214;
+  box-shadow: 1px ;
 
   ul {
     list-style: none;
