@@ -2,7 +2,7 @@ import styled,{AnyStyledComponent} from "styled-components"
 
 export const MovieList: AnyStyledComponent = styled.div`
   width: 100%;
-  margin: 30px auto 0px;
+  margin: 30px auto;
   padding: 30px 140px;
 
 
@@ -28,10 +28,4 @@ export const Movies: AnyStyledComponent = styled.div`
   align-items: center;
   gap: 5px;
 
-`
-export const BestMovieList: AnyStyledComponent = styled(MovieList)`
-  h2 {
-    width: 100%;
-    text-align: left;
-  }
 `

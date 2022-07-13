@@ -1,12 +1,15 @@
 import styled, {AnyStyledComponents} from "styled-components"
 
 export const Header:AnyStyledComponents = styled.header`
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding: 15px 30px;
   background: #121214;
-  border-bottom: 1px solid #121214;
-  box-shadow: 1px ;
+  border-bottom: 1px solid #29292E;
 
   ul {
     list-style: none;
