@@ -6,11 +6,13 @@ import Movie from "../Movie"
 function MovieList(){
   const [movies, setMovies] = useState<any>([])
   const [query, setQuery] = useState<any>('')
+
     useEffect(()=>{
       fetch('https://api.themoviedb.org/3/movie/popular?api_key=afc85de0b5357480396091f5893aefee')
       .then((res)=>res.json())
       .then(data => {
         setMovies(data.results)
+        setQuery('')
         console.log(data.results)
       })
     }, [])
@@ -47,7 +49,6 @@ function MovieList(){
             ))}
           </S.Movies>
         </S.MovieList>
-       
       </>
     )
 }

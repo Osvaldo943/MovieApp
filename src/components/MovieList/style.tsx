@@ -37,6 +37,7 @@ export const BestMovieList: AnyStyledComponent = styled(MovieList)`
 `
 
 export const Search:AnyStyledComponent = styled.div`
+form{
   width: 100%;
   display: flex;
   justify-content: center;
@@ -68,5 +69,5 @@ export const Search:AnyStyledComponent = styled.div`
       border-color: #F75A68;
     }
   }
-
+}
 `
