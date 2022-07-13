@@ -15,6 +15,10 @@ export const MovieList: AnyStyledComponent = styled.div`
     font-size: bold;
     color: #C4C4CC;
     margin-bottom: 30px;
+    border-bottom: 1px solid #121214;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+
   }
 `
 export const Movies: AnyStyledComponent = styled.div`

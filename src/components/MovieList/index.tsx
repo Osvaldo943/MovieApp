@@ -21,7 +21,7 @@ function MovieList(){
           .then(response => response.json())
           .then(response => {
             setMovies(response.d);
-            const image = response.d[0].i.imageUrl
+            const image = response.d[3].i.imageUrl
             console.log(image)
             setImg(image)
             console.log(img)
@@ -31,7 +31,7 @@ function MovieList(){
 
     return(
         <S.MovieList>
-          <h2>Best Movies</h2>
+          <h2>More watched</h2>
           <S.Movies>
             {movies.map(movie =>(
               <Movie key={movie.id} name={movie.l} image={img} />

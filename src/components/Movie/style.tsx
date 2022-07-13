@@ -11,6 +11,9 @@ export const Movie: AnyStyledConponent = styled.div`
   text-align: center;
   border: 1px solid #29292E;
   border-radius: 4px;
+  cursor: pointer;
+  transition: all .2s ease;
+
 
   div {
     width: 100%;
@@ -20,9 +23,15 @@ export const Movie: AnyStyledConponent = styled.div`
   }
   p{
     line-height: 25px;
+    color: #8D8D99;
   }
   img {
     width: 100%;
     height: 250px;
+  }
+
+  &:hover {
+    border-color: #F75A68;
+    background: #F75A68;
   }
 `
