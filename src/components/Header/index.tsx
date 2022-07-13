@@ -1,19 +1,31 @@
 import {Link} from "react-router-dom"
+import  * as S from "./style"
+
 function Header(){
   return(
-    <header>
-      <Link to="/">
-        <div>MovieALL</div>
-      </Link>
+    <S.Header>
+      <S.Logo>
+        <Link to="/">
+          <span>All</span>Movie
+        </Link>
+      </S.Logo>
       <nav>
         <ul>
-          <li>Home</li>
-          <li>Actions</li>
-          <li>Romantic</li>
-          <li>Contact</li>
+            <Link to="/">
+              <li>Home</li>
+            </Link> 
+            <Link to="/">
+              <li>Actions</li>
+            </Link> 
+            <Link to="/">
+              <li>Romantic</li>
+            </Link> 
+            <Link to="/">
+              <li>Contact</li>
+            </Link> 
         </ul>
       </nav>
-    </header>
+    </S.Header>
   )
 }
 
