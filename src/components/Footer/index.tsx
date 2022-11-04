@@ -42,7 +42,7 @@ function Footer(){
           <li>934942499 / 924398472</li>
         </ul>
       </div>
-      <p>Todos os direitos reservados para Osvaldo de Sousa</p>
+      <p>Todos os direitos reservados para Osvaldo Tomás Lucas de Sousa</p>
     </S.Footer>
   )
 }
